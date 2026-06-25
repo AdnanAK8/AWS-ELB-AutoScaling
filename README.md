@@ -41,6 +41,34 @@ This project demonstrates the implementation process of an AWS Application Load 
 | configured-elb.md | ELB configuration |
 | auto-scaling-group.md | Auto Scaling Group setup |
 | scaling-policy.md | CPU based scaling policy |
+## 📂 Repository Structure
+
+```text
+AWS-ELB-AutoScaling/
+│
+├── README.md                   # Project overview and documentation
+├── implementation-guide.md     # Step-by-step implementation guide
+├── configured-elb.md           # Elastic Load Balancer configuration
+├── auto-scaling-group.md       # Auto Scaling Group configuration
+├── scaling-policy.md           # CPU-based scaling policy
+├── architecture.png            # AWS architecture diagram
+└── LICENSE                     # MIT License
+```
+
+### 📄 File Descriptions
+```text
+| File                        | Description                                                                                                |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **README.md**               | Main documentation containing project overview, architecture, objectives, and setup details.               |
+| **implementation-guide.md** | Complete step-by-step guide for implementing ELB and Auto Scaling on AWS.                                  |
+| **configured-elb.md**       | Documentation explaining the configuration of the Application Load Balancer.                               |
+| **auto-scaling-group.md**   | Details about the Auto Scaling Group, capacity settings, and launch template.                              |
+| **scaling-policy.md**       | Explains the Target Tracking Scaling Policy based on CPU utilization.                                      |
+| **architecture.png**        | Architecture diagram showing the interaction between Internet, ELB, EC2 instances, and Auto Scaling Group. |
+| **LICENSE**                 | MIT License for the project.                                                                               |
+
+```
+
 
 ---
 
